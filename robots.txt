@@ -1,1 +1,1 @@
-Sitemap: http://localhost:4000/sitemap.xml
+Sitemap: http://www.knews.space/sitemap.xml
