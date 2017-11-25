@@ -6,6 +6,7 @@ body {
   font-family: "PT Serif", Georgia, "Times New Roman", serif;
   font-size: 18px;
   color: #515151;
+  background-color: rgb(235,240,235);
   line-height: 1.75rem;
 }
 
@@ -40,6 +41,11 @@ a {
 a:hover {
   color: black;
   border-bottom: none;
+}
+
+img#logo {
+    width: 64px;
+    float: right;
 }
 
 img {
@@ -90,9 +96,13 @@ blockquote p {
 */
 
 .container {
+  margin-top: 0px;
   margin-left: auto;
   margin-right: auto;
   width: 680px;
+  background-color: rgb(255,255,255);
+  box-shadow: 0px 0px 15px rgb(150,150,150);
+  padding: 2vw;
 }
 
 @media (max-width: 1366) {
@@ -104,7 +114,12 @@ blockquote p {
 /*48em*/
 
 @media (max-width: 768px) {
+  body {
+    background-color: rgb(255,255,255);    
+  }
   .container {
+    box-shadow: 0px 0px 0px rgb(100,100,100);
+    padding: 0vw;
     width: 90vw;
   }
 }
