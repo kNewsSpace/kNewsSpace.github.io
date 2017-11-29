@@ -6,7 +6,7 @@ body {
   font-family: "PT Serif", Georgia, "Times New Roman", serif;
   font-size: 18px;
   color: #515151;
-  background-color: rgb(235,240,235);
+  background-color: rgb(235,235,235);
   line-height: 1.75rem;
 }
 
@@ -101,7 +101,7 @@ blockquote p {
   margin-right: auto;
   width: 680px;
   background-color: rgb(255,255,255);
-  box-shadow: 0px 0px 15px rgb(150,150,150);
+  box-shadow: 0px 0px 10px rgb(200,200,200);
   padding: 2vw;
 }
 
