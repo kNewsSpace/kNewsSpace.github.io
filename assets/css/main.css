@@ -27,24 +27,41 @@ body {
     Animation Begin
 */
 
-@keyframes example {
+@keyframes slider {
     from {width:100%;}
     to {width:0%;}
 }
 
+@keyframes strip {
+    from {border-left-color: rgb(200,200,200);}
+    to {border-left-color: var(--post-bg-color);}
+}
+
 div#slider {
     background-color: var(--post-bg-color);
-    border-left: solid 3px rgb(200,200,200);
     position: absolute;
     display: block;
     z-index:999;
-    top: 0px;
+    bottom: 0px;
     right: -1vw;
     width:0%;
-    height: 100%;
+    height: 101%;
     animation-delay: 0s;
-    animation-name: example;
+    
+    animation-name: slider;
     animation-timing-function: cubic-bezier(0.380, 0.005, 0.260, 1.000);
+    animation-duration: 1s;
+}
+
+div#strip {
+    top:0px;
+    right:0px;
+    height:100%;
+    width:100%;
+    border-left: solid 3px var(--post-bg-color);
+    
+    animation-name: strip;
+    animation-timing-function: cubic-bezier(0.985, 0.005, 0.895, 0.100);
     animation-duration: 1s;
 }
 

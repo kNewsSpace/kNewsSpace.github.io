@@ -1,0 +1,79 @@
+---
+layout: video_post
+title: "Delta II, Falcon 9, Long March 4C and Soyuz launch!"
+author: "Lukas"
+tags: [news,knews,space,rocket,launch,2017]
+categories: news
+videocode: maSxQJsHEZg
+image:
+  feature: thumb_462017.jpg
+  credit: 
+  creditlink: ""
+---
+In my (almost) weekly kNews episode for week 46/2017 I cover Delta II, Falcon 9, Launch March 4C and a Soyuz rocket launch! Yep, four rockets are planned to launch in a single week which is quite a lot!
+
+*Lukas
+
+Updates
+---
+
+- It seems like the Zuma mission was taken down for a longer period of time. The next launch is a Dragon capsule which does not need the fairing and can therefore launch without issues. The question is now whether Zuma will launch from the launch pad 39A or is moved to launch complex (LC) 40 which is back online after the AMOS (aka. "Facebook Satellite") pad explosion in 2016. Pad 39A is now being worked on to upgrade it for the upcoming Falcon Heavy launches later this or early next year.
+- The Falcon 9 launch was delayed due to a fairing issue on another rocket. The Zuma mission will stand down until SpaceX know what's going on just to be safe.
+- I confused two Soyuz launches with each other. The one supposed to launch on Nov. 18th launches a "Kosmos" satellite while the "Meteor" satellite is currently due to launch on Nov. 28th. Sorry about that!
+
+
+Replays
+---
+
+- [Delta II](https://www.youtube.com/watch?v=WZITzp2on9w)
+- [Long March 4C](https://www.youtube.com/watch?v=KkO1kDwvYq0)
+
+Video Script
+---
+
+Hi Lukas here, welcome to kNews for week 46 and as always a big shoutout to my kNews Boosters on Patreon. Thanks for your thrust! 
+
+Sorry about no episode for last week but I had some tonsil issues which are finally gone. I’m a cyclist and I showed no respect to the elements and got my well deserved punishment. Anyways, there were no punishments for Arianespace’s Vega and Orbital ATK’s Antares rockets. Both launched successfully last week bringing a communication satellite called Mohammed 6A to orbit for Morocco and a Cygnus spacecraft went to the ISS, which also docked to it Tuesday morning successfully. Congratulations! 
+
+First to launch this week was the United Launch Alliance's Delta II rocket on Wednesday but it was shifted to Saturday at 9:47 UTC from Vandenberg at the US west coast. 
+
+Up top is JPSS-1, part of the Joint Polar Satellite System which monitors earth for weather forecasting purposes. It will join and replace Suomi NPP which’s 5 year long lifespan is coming to an end this year. But who knows how long it will actually operate. Just btw., Delta II will also carry 5 cubesats as a secondary payload on this mission.
+
+Below is the 39 meter relatively short and two staged rocket. Its upper stage engine features a large engine bell for maximum efficiency and will give its payload the final push burning hypergolic fuel. The first stage adds most to the rocket’s height and dwarfs the upper one quite a bit. Its core burns Kerosene while the 9, yes 9 strap on boosters are filled with solid propellant. This will be quite the show I think. 
+
+Launching from Vandenberg the rocket will head south to shot its payload into a polar orbit. Such an orbit is very typical for earth monitoring satellites because as the earth rotates below, it can cover almost the entire surface area. A satellite on a lower inclination like the ISS for example does never fly over the poles which leads to data inconsistencies. You just can’t make super accurate predictions if your data misses such big chunks. That’s why they can’t just strap on every instrument on the ISS and instead have to launch dedicated satellites.
+
+Next up is a Chinese Long March 4C which launched earlier than expected on Tuesday from the Taiyuan Satellite Launch Center in northern China.
+
+Up top are two satellites, Fengyun 3D which is similarly to JPSS a weather satellite and Head-1, which will monitor the oceans and rivers for vessels like ships.
+
+Long March 4C has three stages all burning hypergolic fuels which I still find quite nasty. Burning these fuels gets rid of the toxicity but those not entirely empty stages still drop back to ground and the unburned remains get into the environment. Thankfully China renounces hypergolics on its latest of rockets so I hope the older ones will get replaced at some point in a not so distant future. 
+
+Like Delta II, Long March 4C will head for a polar orbit, go through its staging as the lower fuel tanks burn out and hopefully inject the payloads into their desired orbits. The last one launching in 2016 ran into an undisclosed error dooming its payload but that was the only failure so far with 19 preceding successes. 
+
+Number 3 to launch this week is a SpaceX Falcon 9 on Thursday or Friday depending on where you live from Cape Canaveral, what a busy week.
+
+Up top is Zuma, a secret satellite which was built in the US but it’s unknown what it does or who paid for it. However, Zuma is probably not as some people say Jacob Zuma, the south african politician. According to some rumours the name might also be just made up to lure people on the wrong track.
+
+Anyhow, below are Falcon’s upper and first booster stage. It will be equipped with its landing gear so we will see another landing. This time it will be at landing zone 1 again so people living in Florida will be able to witness it live from the distance. I’d still recommend to follow their livestream in parallel which is very well made and of course linked in the info box. 
+
+I have no idea in which direction the rocket will fly or what orbit it aims for but I’m pretty sure it will head out over the ocean since everything else would be forbidden launching from Cape Canaveral. Now what do you think about SpaceX launching top secret satellites like this? The satellite maker Northrop Grumman is known for military equipment and could in theory launch a laser weapon to space. Now this is of course made up but is a possible future scenario. Does it matter to you what that payload is and is there stuff you’d not want SpaceX to launch? I’m really curious about your opinion on this since nobody can force them as a private company to just launch everything. But of course, refusing to launch a satellite due to ethnic reasons could have a huge impact on their future missions. That’s a very tough situation to be in I guess.
+
+Anyways, after the booster has separated from the upper stage it will turn around and do a boost back burn reversing its trajectory back to where it came from. It will then do its spectacular reentry burn which can be captured in high detail from the ground when landing on land. I really like how they first ignite one, then three engines and how to exhaust plume changes its shape during that event. 
+I know there are some sceptics out there who believe these booster landings are all CGI like mine. However, if you really think like that simply go visit Florida and watch it in person. There is also a ton of amateur footage of the landing.
+Once the landing is done the livestream will probably again end sooner than usual due to the payload secret nature. So we won’t see it separating but SpaceX will as usual confirm a successful mission on their Twitter.
+
+And the last rocket scheduled for this week is a russian Soyuz launching on Saturday from the new Vostochny cosmodrome in Russia.
+
+On board is yet again another weather satellite for the russian Kosmos program called Meteor M2-1. Exact details are unknown as well so I can’t tell you much about it sadly.
+Soyuz will interestingly launch without its famous 4 liquid fueled boosters on the sides and instead just use the core stage. That one is also different using a single fixed NK-33 engine on the bottom which uses four small engines as vernier thrusters to steer the rocket on the way up.
+
+Similar to the other two weather satellites Meteor will be placed in a circular polar orbit at an altitude of round about 800 to 900 km. 
+
+Now in the end some other information regarding my channel. I used to upload and host my craft files on a paid server and also tried to keep my little website updated. However, I just don’t enjoy maintaining all of this so I decided to scrub it and get rid of the cost. Sorry for those who use it! It’s not yet down so if you want a particular craft file linked there go get it.
+
+Okay, that shall conclude this week’s episode and I hope to see you in the next one if you like. Auf Wiedersehen and thank you for reading. 
+
+
+
+

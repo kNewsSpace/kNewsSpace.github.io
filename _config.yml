@@ -1,0 +1,79 @@
+# Site Build Settings
+
+# Jekyll-paginate-v2 configuration
+#  pagination:
+#   enabled: true
+#   per_page: 5
+#   permalink: '/page/:num/'
+#   title: ':title - page :num of :max'
+#   limit: 0
+#   sort_field: 'date'
+#   sort_reverse: true
+
+# jekyll-paginate configuration
+pagination:            
+    enabled: true
+    per_page: 5
+    permalink: '/page/:num/'
+    title: ':title - page :num of :max'
+    sort_field: 'date'
+    sort_reverse: true
+    
+
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+permalink:           none
+plugins:             [jekyll-paginate-v2, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+
+# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
+title:		         "kNews Space"
+description:	     "Rocket Launch and Space News"
+author:              "Lukas"
+
+url: "http://www.knews.space"
+
+repository: kNewsSpace/kNewsSpace.github.io
+github: [metadata]
+
+# RSS 2.0 can be used instead of Atom by uncommenting following two lines
+#feed:
+#   path:	     rss-feed.xml
+
+defaults:
+    - 
+        scope: 
+            path: "downloads/crafts/1.0.4"
+        values:
+            craft: true
+            version: "1.0.4"
+    -
+        scope: 
+            path: "downloads/crafts/1.0.5"
+        values:
+            craft: true
+            version: "1.0.5"
+    -
+        scope: 
+            path: "downloads/crafts/1.1"
+        values:
+            craft: true
+            version: "1.1"
+    -
+        scope: 
+            path: "downloads/crafts/1.2"
+        values:
+            craft: true
+            version: "1.2"
+    -
+        scope: 
+            path: "downloads/crafts/1.3.0"
+        values:
+            craft: true
+            version: "1.3.0"
+    -
+        scope: 
+            path: "downloads/crafts/1.3.1"
+        values:
+            craft: true
+            version: "1.3.1"
