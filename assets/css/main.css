@@ -1,6 +1,9 @@
 /*
   Base
 */
+:root {
+    --post-bg-color: rgb(255,255,255);
+}
 
 body {
   font-family: "PT Serif", Georgia, "Times New Roman", serif;
@@ -19,6 +22,36 @@ body {
     font-size: 1.5rem;
   }
 }
+
+/*
+    Animation Begin
+*/
+
+@keyframes example {
+    from {width:100%;}
+    to {width:0%;}
+}
+
+div#slider {
+    background-color: var(--post-bg-color);
+    border-left: solid 3px rgb(200,200,200);
+    position: absolute;
+    display: block;
+    z-index:999;
+    top: 0px;
+    right: -1vw;
+    width:0%;
+    height: 100%;
+    animation-delay: 0s;
+    animation-name: example;
+    animation-timing-function: cubic-bezier(0.380, 0.005, 0.260, 1.000);
+    animation-duration: 1s;
+}
+
+
+/*
+    Animation End
+*/
 
 h1{
   font-size: 2rem;
@@ -133,6 +166,7 @@ blockquote p {
   padding-bottom: 0.5rem;
   margin-bottom: 4rem;
   font-family: "Quattrocento Sans", sans-serif;
+  padding-bottom: 10px;
 }
 
 .masthead a:hover {
@@ -170,6 +204,8 @@ blockquote p {
 */
 
 .post-container {
+  background-color: var(--post-bg-color);
+  position: relative;
   margin-bottom: 4rem;
 }
 
