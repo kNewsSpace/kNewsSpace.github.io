@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>kNews Space</title>
+		<description>Rocket Launch and Space News</description>
+		<link></link>
+		<atom:link href="/rss-feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>6 + 2C + 3B*? = Chinese (中文) Launch Week</title>
+				
+				
+					<description>&lt;p&gt;Two or three Chinese rockets are supposed to launch in week 47/2017 and astronomers are talking about nothing but cigars.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sun, 26 Nov 2017 00:00:00 +0100</pubDate>
+				<link>http://www.knews.space/news/Long-March-6-2C-3B-Launch.html</link>
+				<guid isPermaLink="true">http://www.knews.space/news/Long-March-6-2C-3B-Launch.html</guid>
+			</item>
+		
+			<item>
+				<title>Delta II, Falcon 9, Long March 4C and Soyuz launch!</title>
+				
+				
+					<description>&lt;p&gt;In my (almost) weekly kNews episode for week 46/2017 I cover Delta II, Falcon 9, Launch March 4C and a Soyuz rocket launch! Yep, four rockets are planned to launch in a single week which is quite a lot!&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Mon, 20 Nov 2017 00:00:00 +0100</pubDate>
+				<link>http://www.knews.space/news/Delta-II-Falcon-9-Launch.html</link>
+				<guid isPermaLink="true">http://www.knews.space/news/Delta-II-Falcon-9-Launch.html</guid>
+			</item>
+		
+			<item>
+				<title>kNews Space Has a New Home!</title>
+				
+				
+					<description>&lt;p&gt;I decided to cancel my webspace subscription because I basically just link to my content found on my &lt;a href=&quot;https://www.youtube.com/c/kNewsSpace&quot;&gt;YouTube&lt;/a&gt; channel and do not host my own videos. It would be cool to have my videos hosted on my own server but webspace fast enough to deliver a good experience would be too expensive for me.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Mon, 20 Nov 2017 00:00:00 +0100</pubDate>
+				<link>http://www.knews.space/blog/Welcome-to-kNews-Space.html</link>
+				<guid isPermaLink="true">http://www.knews.space/blog/Welcome-to-kNews-Space.html</guid>
+			</item>
+		
+	</channel>
+</rss>
