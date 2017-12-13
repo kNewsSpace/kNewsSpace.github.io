@@ -93,6 +93,22 @@ a:hover {
   border-bottom: none;
 }
 
+a#craft_link {
+  background-color: rgb(140,140,140);
+  color: rgb(255,255,255);
+  text-decoration: none;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+ul#craft_list_version {
+  list-style-type: none;   
+}
+
+ul#craft_list_members {
+  list-style-type: circle;
+}
+
 img#logo {
     width: 64px;
     float: right;
