@@ -93,7 +93,7 @@ a:hover {
   border-bottom: none;
 }
 
-a#craft_link {
+a.inverted {
   background-color: rgb(140,140,140);
   color: rgb(255,255,255);
   text-decoration: none;
@@ -101,11 +101,15 @@ a#craft_link {
   padding-right: 5px;
 }
 
-ul#craft_list_version {
+a.inverted:hover {
+   background-color: rgb(180,180,180); 
+}
+
+ul.craft_list_version {
   list-style-type: none;   
 }
 
-ul#craft_list_members {
+ul.craft_list_members {
   list-style-type: circle;
 }
 
