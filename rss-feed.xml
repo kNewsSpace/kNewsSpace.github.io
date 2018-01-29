@@ -7,6 +7,19 @@
 		<atom:link href="/rss-feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Rocket Lab's Electron Scares Kiwis and Shoots Discoballs!</title>
+				
+				
+					<description>&lt;p&gt;In kNews for week 03/2018 I talk about Rocket Lab’s second rocket launch from New Zealand, Epsilon, Long March 11 and Atlas V!&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sun, 28 Jan 2018 00:00:00 +0100</pubDate>
+				<link>http://www.knews.space/videos/Rocket-Labs-Electron-AtlasV-SBIRS.html</link>
+				<guid isPermaLink="true">http://www.knews.space/videos/Rocket-Labs-Electron-AtlasV-SBIRS.html</guid>
+			</item>
+		
+			<item>
 				<title>Russia Resurrects Secret Project CORONA!</title>
 				
 				
@@ -121,19 +134,6 @@
 				<pubDate>Mon, 20 Nov 2017 00:00:00 +0100</pubDate>
 				<link>http://www.knews.space/videos/Delta-II-Falcon-9-Launch.html</link>
 				<guid isPermaLink="true">http://www.knews.space/videos/Delta-II-Falcon-9-Launch.html</guid>
-			</item>
-		
-			<item>
-				<title>kNews Space Has a New Home!</title>
-				
-				
-					<description>&lt;p&gt;I decided to cancel my webspace subscription because I basically just link to my content found on my &lt;a href=&quot;https://www.youtube.com/c/kNewsSpace&quot;&gt;YouTube&lt;/a&gt; channel and do not host my own videos. It would be cool to have my videos hosted on my own server but webspace fast enough to deliver a good experience would be too expensive for me.&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Mon, 20 Nov 2017 00:00:00 +0100</pubDate>
-				<link>http://www.knews.space/news/Welcome-to-kNews-Space.html</link>
-				<guid isPermaLink="true">http://www.knews.space/news/Welcome-to-kNews-Space.html</guid>
 			</item>
 		
 	</channel>
