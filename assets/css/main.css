@@ -27,7 +27,6 @@ body {
 
 /*
     Animation Begin
-*/
 
 @keyframes slider {
     from {width:100%;}
@@ -67,8 +66,6 @@ div#strip {
     animation-duration: 1s;
 }
 
-
-/*
     Animation End
 */
 
