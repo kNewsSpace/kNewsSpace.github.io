@@ -7,6 +7,19 @@
 		<atom:link href="/rss-feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Japan's Smallest Launcher &amp; Swimming Boosters</title>
+				
+				
+					<description>&lt;p&gt;In kNews for week 05/2018 (Jan. 29 - Feb. 4)  I cover Japan’s smallest launch vehicle, Falcon 9, Long March 2D and Soyuz launch!&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sun, 18 Feb 2018 00:00:00 +0100</pubDate>
+				<link>http://www.knews.space/videos/Japan-Worls-Smallest-Rocket-SS520.html</link>
+				<guid isPermaLink="true">http://www.knews.space/videos/Japan-Worls-Smallest-Rocket-SS520.html</guid>
+			</item>
+		
+			<item>
 				<title>SpaceX Falcon Heavy Test Flight... Finally!</title>
 				
 				
@@ -121,19 +134,6 @@
 				<pubDate>Sat, 02 Dec 2017 00:00:00 +0100</pubDate>
 				<link>http://www.knews.space/news/SpaceX-to-launch-Tesla-to-Space.html</link>
 				<guid isPermaLink="true">http://www.knews.space/news/SpaceX-to-launch-Tesla-to-Space.html</guid>
-			</item>
-		
-			<item>
-				<title>Soyuz's Fregat Upper Stage Burned Up!</title>
-				
-				
-					<description>&lt;p&gt;Sad news from Russia. The recently launched Soyuz - which I covered a little prematurely in kNews for week 46/2017, has had an anomaly on its Fregat (frigate) upper stage!&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Thu, 30 Nov 2017 00:00:00 +0100</pubDate>
-				<link>http://www.knews.space/news/Soyuz-Reentry-Anomaly-Failure-Fregat-Meteor.html</link>
-				<guid isPermaLink="true">http://www.knews.space/news/Soyuz-Reentry-Anomaly-Failure-Fregat-Meteor.html</guid>
 			</item>
 		
 	</channel>
