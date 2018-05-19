@@ -1,1 +1,1 @@
-Sitemap: http://www.knews.space/sitemap.xml
+Sitemap: http://blog.knews.space/sitemap.xml
