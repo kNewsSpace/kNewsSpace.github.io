@@ -2,16 +2,31 @@
   Base
 */
 :root {
-    --post-bg-color: rgb(255,255,255);
+    --general-bg-color: rgb(50,50,50);
+    --video-bg-color: rgb(50,50,50);
+    --code-bg-color: rgb(245,245,245);
+    --head-bg-color: #1d1d1d;
+
+    --general-font-color: rgb(230,230,230);
+    --general-link-color: rgb(187, 81, 81);
+    --general-link-hover: var(--general-font-color);
+    --general-link-colori: var(--general-font-color);
+    --general-link-hoveri: rgb(15, 13, 13);
+
+    --social-link-color: var(--general-font-color);
+    --menu-link-color: var(--general-font-color);
+    --menu-link-hover: rgb(50,50,50);
+    --menu-linkbg-color: var(--general-link-color);
+    --menu-linkbg-hover: var(--general-link-hover);
 }
 
 body {
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: "PT Serif", Georgia, "Times New Roman", serif;
+  font-family: "Quattrocento Sans", sans-serif;
   font-size: 18px;
-  color: #515151;
-  background-color: rgb(255,255,255);
+  color: var(--general-font-color);
+  background-color: var(--general-bg-color);
   line-height: 1.75rem;
 }
 
@@ -79,29 +94,32 @@ h1 a {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Quattrocento Sans", sans-serif;
-  color: #333;
+  color: var(--general-title-color);
 }
 
-a {
-  text-decoration: underline;
-  color: #333;
+a, a:visited {
+  text-decoration: none;
+  color: var(--general-link-color);
 }
 
 a:hover {
-  color: black;
+  color: var(--general-link-hover);
   border-bottom: none;
 }
 
 a.inverted {
-  background-color: rgb(140,140,140);
-  color: rgb(255,255,255);
+  background-color: var(--general-link-color);
+  color: var(--general-link-colori);
   text-decoration: none;
   padding-left: 5px;
   padding-right: 5px;
+  padding-bottom: 2px;
+  padding-top: 4px;
 }
 
 a.inverted:hover {
-   background-color: rgb(180,180,180); 
+   background-color: var(--general-link-hover);
+   color: var(--general-link-hoveri);
 }
 
 ul.craft_list_version {
@@ -113,20 +131,39 @@ ul.craft_list_members {
 }
 
 img#logo {
-    width: 64px;
-    float: right;
+    background-color: #000;
+    height: 64px;
+    width: 1024px;
+    max-width: 100%;
+    margin: auto;
+    object-fit: cover;
+    opacity: 0.95;
+}
+
+@media (max-width: 30em) {
+  img#logo {
+    height: 48px;
+    width: auto;
+}
+}
+
+@media (max-width: 22em) {
+  img#logo {
+    height: 40px;
+    width: auto;
+}
 }
 
 img {
   max-width: 100%;
   height: auto;
-  border-radius: 3px;
+  border-radius: 0px;
   margin:auto;
 }
 
 div#video {
   position: relative;
-  background-color: rgb(50,50,50);
+  background-color: var(--video-bg-color);
   width: 100%;
   padding-bottom: 56.25%;
   padding-top: 0%;
@@ -170,9 +207,10 @@ blockquote p {
   margin-left: auto;
   margin-right: auto;
   width: 680px;
-  background-color: rgb(255,255,255);
+  background-color: var(--general-bg-color);
   /*box-shadow: 0px 0px 10px rgb(200,200,200);*/
   padding: 2vw;
+  padding-top: 96px;
 }
 
 @media (max-width: 1366) {
@@ -185,11 +223,11 @@ blockquote p {
 
 @media (max-width: 768px) {
   body {
-    background-color: rgb(255,255,255); 
+    background-color: var(--general-bg-color); 
   }
   .container {
     box-shadow: none;
-    padding: 0vw;
+    /*padding: 0vw;*/
     width: 90vw;
   }
 }
@@ -199,25 +237,19 @@ blockquote p {
 */
 
 .masthead {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  margin-bottom: 4rem;
-  font-family: "Quattrocento Sans", sans-serif;
-  padding-bottom: 10px;
+  margin-bottom: 3rem;
 }
-
-.masthead a:hover {
-  color:black;
-}
-
-.masthead-title a {
-  font-size: 2rem;
-  text-decoration: none;
-  color: #505050;
-}
-
-.masthead-subtitle {
-  color: #999;
+.tophead {
+  position: fixed;
+  z-index: 10;
+  top: 0px;
+  left: 0px;
+  height: 64px;
+  width: 100%;
+  background-color: var(--head-bg-color);
+  box-shadow: #000 0px 0px 10px;
+  margin-top: 0px;
+  opacity: 0.95;
 }
 
 /*
@@ -241,7 +273,7 @@ blockquote p {
 */
 
 .post-container {
-  background-color: var(--post-bg-color);
+  background-color: var(--general-bg-color);
   position: relative;
   margin-bottom: 4rem;
 }
@@ -336,7 +368,7 @@ blockquote p {
 */
 
 .menu {
-  padding-top: 0.5rem;
+  margin-top: 0px;
   display: block;
 }
 
@@ -345,9 +377,18 @@ blockquote p {
 }
 
 .menu-content a {
-  color: #999;
-  font-size: 1rem;
-  padding-right: 10px;
+  color: var(--menu-link-color);
+  background-color: var(--menu-linkbg-color);
+  font-size: 1.3rem;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 4px;
+  padding-bottom: 2px;
+}
+
+.menu-content a:hover {
+  background-color: var(--menu-linkbg-hover);
+  color: var(--menu-link-hover);
 }
 
 .social-icons {
@@ -355,17 +396,16 @@ blockquote p {
 }
 
 .social-icons a {
-  color: #999;
-  font-size: 1rem;
+  color: var(--social-link-color);
+  font-size: 1.3rem;
 }
 
-@media (max-width: 30em) {
-  .social-icons {
-    float: left;
-    padding-top: 0px;
+@media (max-width: 25em) {
+  .menu-content a {
+    font-size: 1.0rem;
   }
-  .menu-content {
-    margin-bottom: 5px;
+  .social-icons a {
+    font-size: 1.0rem;
   }
 }
 
@@ -377,7 +417,7 @@ pre,
 code {
     font-size: 0.8rem;
     border-radius: 3px;
-    background-color: #f5f5f5;
+    background-color: var(--code-bg-color);
     font-family: "Source Code Pro";
 }
 
@@ -460,6 +500,20 @@ pre {
 .fa-twitter:hover {
 	color: #00aced;
 }
+
+.fa-youtube {
+  padding: 5px;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition: .5s;
+}
+
+.fa-youtube:hover {
+	color: #c04646;
+}
+
 
 .fa-instagram {
   padding: 5px;
