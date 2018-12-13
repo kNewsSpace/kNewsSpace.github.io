@@ -362,7 +362,7 @@ blockquote p {
 }
 
 .footer a:hover {
-  color: (var(--general-font-color));
+  color: var(--general-font-color);
 }
 
 /*
