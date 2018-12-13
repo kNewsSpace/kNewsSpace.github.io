@@ -7,55 +7,53 @@
 		<atom:link href="/rss-feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>Japan's Smallest Launcher &amp; Swimming Boosters</title>
+				<title>This is just another test post.</title>
 				
 				
-					<description>&lt;p&gt;In kNews for week 05/2018 (Jan. 29 - Feb. 4)  I cover Japan’s smallest launch vehicle, Falcon 9, Long March 2D and Soyuz launch!&lt;/p&gt;
+					<description>&lt;p&gt;This ist just another test to see if the backend is ready for 2019 and my new video formats! Stay tuned!&lt;/p&gt;
 
 </description>
 				
-				<pubDate>Sun, 18 Feb 2018 00:00:00 +0100</pubDate>
-				<link>http://blog.knews.space/briefings/Japan-Worls-Smallest-Rocket-SS520.html</link>
-				<guid isPermaLink="true">http://blog.knews.space/briefings/Japan-Worls-Smallest-Rocket-SS520.html</guid>
+				<pubDate>Thu, 13 Dec 2018 00:00:00 +0100</pubDate>
+				<link>http://blog.knews.space/vlogs/test-number-two.html</link>
+				<guid isPermaLink="true">http://blog.knews.space/vlogs/test-number-two.html</guid>
 			</item>
 		
 			<item>
-				<title>SpaceX Falcon Heavy Test Flight... Finally!</title>
+				<title>This is just a test post. Nothing to see here!</title>
 				
 				
-					<description>&lt;p&gt;SpaceX Falcon Heavy finally launches for the first time! On board is a cherry red Tesla Roadster and I discuss the launch in a kNews Special!&lt;/p&gt;
+					<description>&lt;p&gt;This ist just a test to see if the backend is ready for 2019 and my new video formats! Stay tuned!&lt;/p&gt;
 
 </description>
 				
-				<pubDate>Tue, 06 Feb 2018 00:00:00 +0100</pubDate>
-				<link>http://blog.knews.space/briefings/Falcon-Heavy-Test-Flight.html</link>
-				<guid isPermaLink="true">http://blog.knews.space/briefings/Falcon-Heavy-Test-Flight.html</guid>
+				<pubDate>Thu, 13 Dec 2018 00:00:00 +0100</pubDate>
+				<link>http://blog.knews.space/vlogs/test-number-one.html</link>
+				<guid isPermaLink="true">http://blog.knews.space/vlogs/test-number-one.html</guid>
 			</item>
 		
 			<item>
-				<title>Blue Origin’s New Shepard launched secretly! </title>
+				<title>What is SpaceX Starlink again?</title>
 				
 				
-					<description>&lt;p&gt;Blue Origin’s New Shepard rocket shot their brand new “Crew Capsule 2.0” into a sub orbital trajectory above the Mojave desert. This happened on December 12th 2017 and was as far as I know not streamed live nor announced, so I call it secret! Blue Origin was founded by Jeff Bezos who is also the head at the e-commerce giant amazon. Next to New Shepard, Blue Origin is also working on its orbital class launch vehicle called New Glenn which will use 7 BE-4 engines burning liquid methane and oxygen on its first stage, unlike New Shepard which burns liquid Hydrogen. However, New Shepard’s BE-3 engine will probably be used on an expendable third stage of the rocket.&lt;/p&gt;
-
+					<description>&lt;p&gt;This is just another test post to see if everything is still doing what it should. I reworked my page a little to maintain it a little easier!&lt;/p&gt;
 </description>
 				
-				<pubDate>Wed, 13 Dec 2017 00:00:00 +0100</pubDate>
-				<link>http://blog.knews.space/vlogs/Blue-Origin-New-Shepard-Capsule-2.0.html</link>
-				<guid isPermaLink="true">http://blog.knews.space/vlogs/Blue-Origin-New-Shepard-Capsule-2.0.html</guid>
+				<pubDate>Tue, 02 Jan 2018 00:00:00 +0100</pubDate>
+				<link>http://blog.knews.space/briefings/SpaceX-Starlink2.html</link>
+				<guid isPermaLink="true">http://blog.knews.space/briefings/SpaceX-Starlink2.html</guid>
 			</item>
 		
 			<item>
-				<title>SpaceX to Launch Tesla Roadster to Mars</title>
+				<title>What is SpaceX Starlink?</title>
 				
 				
-					<description>&lt;p&gt;Yep, it’s not a joke (as it seems). SpaceX’ Falcon Heavy will launch Elon Musk’s red Tesla Roaster to Mars on its maiden flight in January 2018 according to a tweet by &lt;a href=&quot;https://twitter.com/elonmusk/status/936782477502246912&quot;&gt;Elon Musk&lt;/a&gt;. My illustration up top shows a Tesla Model X because this is the only one I got modeled in 3D which I used in my &lt;a href=&quot;https://www.youtube.com/watch?v=fYuvOMnDRdc&quot;&gt;Tesla Project Loveday&lt;/a&gt;” entry. However, it is still unclear whether it will be one of the new 200 kWh Roadsters which will arrive at the market by 2020, or one if not the first Tesla Roadster Elon Musk ever owned himself. This would be quite emotional and a real loss for him should something go wrong! &lt;em&gt;knocks on wood&lt;/em&gt;&lt;/p&gt;
-
+					<description>&lt;p&gt;This is just a test post to see if everything is doing what it should. I reworked my page a little to maintain it a little easier!&lt;/p&gt;
 </description>
 				
-				<pubDate>Sat, 02 Dec 2017 00:00:00 +0100</pubDate>
-				<link>http://blog.knews.space/vlogs/SpaceX-to-launch-Tesla-to-Space.html</link>
-				<guid isPermaLink="true">http://blog.knews.space/vlogs/SpaceX-to-launch-Tesla-to-Space.html</guid>
+				<pubDate>Mon, 01 Jan 2018 00:00:00 +0100</pubDate>
+				<link>http://blog.knews.space/briefings/SpaceX-Starlink.html</link>
+				<guid isPermaLink="true">http://blog.knews.space/briefings/SpaceX-Starlink.html</guid>
 			</item>
 		
 	</channel>
