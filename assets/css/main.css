@@ -9,15 +9,16 @@
 
     --general-font-color: rgb(230,230,230);
     --general-link-color: rgb(187, 81, 81);
-    --general-link-hover: var(--general-font-color);
+    --general-link-hover:  rgb(187, 121, 121);
     --general-link-colori: var(--general-font-color);
-    --general-link-hoveri: rgb(15, 13, 13);
+    --general-link-hoveri: var(--general-font-color);
 
     --social-link-color: var(--general-font-color);
     --menu-link-color: var(--general-font-color);
-    --menu-link-hover: rgb(50,50,50);
+    --menu-link-hover: var(--general-font-color);
     --menu-linkbg-color: var(--general-link-color);
-    --menu-linkbg-hover: var(--general-link-hover);
+    --menu-linkbg-hover: rgb(187, 121, 121);
+    --menu-highlighted: rgb(50,50,50);
 
     --footer-font-color: rgb(148, 148, 148);
 }
@@ -391,6 +392,21 @@ blockquote p {
 .menu-content a:hover {
   background-color: var(--menu-linkbg-hover);
   color: var(--menu-link-hover);
+}
+
+.menu-content a#highlighted {
+  color: var(--menu-highlighted);
+  background-color: var(--menu-link-color);
+  font-size: 1.3rem;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 4px;
+  padding-bottom: 2px;
+}
+
+.menu-content a#highlighted:hover {
+  background-color: var(--menu-link-color);
+  color: var(--menu-linkbg-color);
 }
 
 .social-icons {
