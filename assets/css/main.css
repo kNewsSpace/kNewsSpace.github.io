@@ -450,7 +450,7 @@ blockquote p {
   .menu-content a {
     font-size: 0.9rem;
   }
-  .menu-content a#highlighted {
+  .menu-content a:active, a#highlighted {
     font-size: 1.0rem;
   }
   .social-icons a {
