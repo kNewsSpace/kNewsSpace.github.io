@@ -23,6 +23,16 @@
 
     --title-font: "Open Sans", sans-serif;
     --text-font: "Montserrat", sans-serif;
+
+    --ani-transition-dt: 0.2s;
+}
+
+* {
+  -o-transition: var(--ani-transition-dt);
+  	-ms-transition: var(--ani-transition-dt);
+  	-moz-transition: var(--ani-transition-dt);
+  	-webkit-transition: var(--ani-transition-dt);
+  	transition: var(--ani-transition-dt);
 }
 
 body {
@@ -35,97 +45,6 @@ body {
   line-height: 1.75rem;
 }
 
-body h1 {
-  font-family: var(--title-font);
-}
-body h2 {
-  font-family: var(--title-font);
-}
-body h3 {
-  font-family: var(--title-font);
-}
-body h4 {
-  font-family: var(--title-font);
-}
-
-@media (max-width: 35em) {
-  body h1 {
-    font-size: 1.5rem;
-  }
-  body h2 {
-    font-size: 1.4rem;
-  }
-  body h3 {
-    font-size: 1.3rem;
-  }
-  body h4 {
-    font-size: 1.2rem;
-  }
-}
-
-@media (max-width: 26em) {
-  body {
-    font-size: 16px;
-    line-height: 1.5rem;
-  }
-  body h1 {
-    font-size: 1.4rem;
-  }
-  body h2 {
-    font-size: 1.3rem;
-  }
-  body h3 {
-    font-size: 1.2rem;
-  }
-  body h4 {
-    font-size: 1.1rem;
-  }
-}
-
-/*
-    Animation Begin
-
-@keyframes slider {
-    from {width:100%;}
-    to {width:0%;}
-}
-
-@keyframes strip {
-    from {border-left-color: rgb(200,200,200);}
-    to {border-left-color: var(--post-bg-color);}
-}
-
-div#slider {
-    background-color: var(--post-bg-color);
-    position: absolute;
-    display: block;
-    z-index:999;
-    bottom: 0px;
-    right: -1vw;
-    width:0%;
-    height: 101%;
-    animation-delay: 0s;
-    
-    animation-name: slider;
-    animation-timing-function: cubic-bezier(0.380, 0.005, 0.260, 1.000);
-    animation-duration: 1s;
-}
-
-div#strip {
-    top:0px;
-    right:0px;
-    height:100%;
-    width:100%;
-    border-left: solid 3px var(--post-bg-color);
-    
-    animation-name: strip;
-    animation-timing-function: cubic-bezier(0.985, 0.005, 0.895, 0.100);
-    animation-duration: 1s;
-}
-
-    Animation End
-*/
-
 h1{
   font-size: 2rem;
 }
@@ -135,18 +54,63 @@ h1 a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--text-font);
+  font-family: var(--title-font);
   color: var(--general-title-color);
+}
+
+@media (max-width: 35em) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.4rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+  }
+  h4 {
+    font-size: 1.2rem;
+  }
+  h5 {
+    font-size: 0.9rem;
+  }
+  h6 {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 26em) {
+  body {
+    font-size: 16px;
+    line-height: 1.5rem;
+  }
+  h1 {
+    font-size: 1.4rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+  h4 {
+    font-size: 1.1rem;
+  }
+  h5 {
+    font-size: 0.8rem;
+  }
+  h6 {
+    font-size: 0.7rem;
+  }
 }
 
 a, a:visited {
   text-decoration: none;
-  color: var(--general-link-color);
+  color: var(--general-link-hover);
 }
 
 a:hover {
-  color: var(--general-link-hover);
-  border-bottom: none;
+  color: var(--general-link-color);
 }
 
 a.inverted {
@@ -180,6 +144,7 @@ ul.craft_list_members {
   object-fit: fill;
   opacity: 0.95;
   background-image: url('/assets/img/logo.jpg');
+  background-repeat: none;
 }
 
 img#patreon {
@@ -189,19 +154,8 @@ img#patreon {
   height: 64px;
   width: auto;
   opacity: 0.95;
-  object-fit: cover;
   padding-right: 2vw;
 }
-/*
-img#logo {
-  z-index: 20;
-  height: 64px;
-  width: auto;
-  max-width: 100%;
-  margin: auto;
-  object-fit: cover;
-  opacity: 0.0;
-}*/
 
 @media (max-width: 35em) {
   .toplogo {
@@ -326,7 +280,7 @@ blockquote p {
   height: 64px;
   width: 100%;
   background-color: var(--head-bg-color);
-  box-shadow: #000 0px 0px 10px;
+  box-shadow: rgb(20, 20, 20) 0px 0px 0px;
   margin-top: 0px;
   opacity: 0.95;
 }
@@ -353,8 +307,7 @@ blockquote p {
 }
 
 .thumbnail-container img{
-  margin-top: -11.5%;
-  margin-bottom: -11.5%;
+  
 }
 
 /*
@@ -480,7 +433,7 @@ blockquote p {
   color: var(--menu-link-hover);
 }
 
-.menu-content a#highlighted {
+.menu-content a:active, a#highlighted {
   color: var(--menu-highlighted);
   background-color: var(--menu-link-color);
   font-size: 1.4rem;
@@ -506,10 +459,10 @@ blockquote p {
 
 @media (max-width: 26em) {
   .menu-content a {
-    font-size: 1.0rem;
+    font-size: 0.9rem;
   }
   .menu-content a#highlighted {
-    font-size: 1.2rem;
+    font-size: 1.0rem;
   }
   .social-icons a {
     font-size: 1.0rem;
@@ -584,11 +537,7 @@ pre {
 
 .fa-envelope {
   padding: 5px;
-	-o-transition:.5s;
-  	-ms-transition:.5s;
-  	-moz-transition:.5s;
-  	-webkit-transition:.5s;
-  	transition: .5s;
+  
 }
 
 .fa-envelope:hover {
@@ -597,11 +546,6 @@ pre {
 
 .fa-twitter {
   padding: 5px;
-	-o-transition:.5s;
-  	-ms-transition:.5s;
-  	-moz-transition:.5s;
-  	-webkit-transition:.5s;
-  	transition: .5s;
 }
 
 .fa-twitter:hover {
@@ -610,11 +554,6 @@ pre {
 
 .fa-youtube {
   padding: 5px;
-	-o-transition:.5s;
-  	-ms-transition:.5s;
-  	-moz-transition:.5s;
-  	-webkit-transition:.5s;
-  	transition: .5s;
 }
 
 .fa-youtube:hover {
@@ -624,11 +563,6 @@ pre {
 
 .fa-instagram {
   padding: 5px;
-	-o-transition:.5s;
-  	-ms-transition:.5s;
-  	-moz-transition:.5s;
-  	-webkit-transition:.5s;
-  	transition: .5s;
 }
 
 .fa-instagram:hover {
@@ -637,11 +571,6 @@ pre {
 
 .fa-github {
   padding: 5px;
-	-o-transition:.5s;
-  	-ms-transition:.5s;
-  	-moz-transition:.5s;
-  	-webkit-transition:.5s;
-  	transition: .5s;
 }
 
 .fa-github:hover {
@@ -650,11 +579,6 @@ pre {
 
 .fa-linkedin {
   padding: 5px;
-	-o-transition:.5s;
-  	-ms-transition:.5s;
-  	-moz-transition:.5s;
-  	-webkit-transition:.5s;
-  	transition: .5s;
 }
 
 .fa-linkedin:hover {
@@ -663,11 +587,6 @@ pre {
 
 .fa-facebook {
   padding: 5px;
-	-o-transition:.5s;
-  	-ms-transition:.5s;
-  	-moz-transition:.5s;
-  	-webkit-transition:.5s;
-  	transition: .5s;
 }
 
 .fa-facebook:hover {
@@ -676,11 +595,6 @@ pre {
 
 .fa-google-plus {
   padding: 5px;
-	-o-transition:.5s;
-  	-ms-transition:.5s;
-  	-moz-transition:.5s;
-  	-webkit-transition:.5s;
-  	transition: .5s;
 }
 
 .fa-google-plus:hover {
@@ -689,11 +603,6 @@ pre {
 
 .fa-pinterest {
   padding: 5px;
-	-o-transition:.5s;
-  	-ms-transition:.5s;
-  	-moz-transition:.5s;
-  	-webkit-transition:.5s;
-  	transition: .5s;
 }
 
 .fa-pinterest:hover {
@@ -702,11 +611,6 @@ pre {
 
 .fa-medium {
   padding: 5px;
-	-o-transition:.5s;
-  	-ms-transition:.5s;
-  	-moz-transition:.5s;
-  	-webkit-transition:.5s;
-  	transition: .5s;
 }
 
 .fa-medium:hover {
@@ -715,11 +619,7 @@ pre {
 
 .fa-codepen {
   padding: 5px;
-	-o-transition:.5s;
-  	-ms-transition:.5s;
-  	-moz-transition:.5s;
-  	-webkit-transition:.5s;
-  	transition: .5s;
+
 }
 
 .fa-codepen:hover {
@@ -728,11 +628,6 @@ pre {
 
 .fa-rss-square {
   padding: 5px;
-	-o-transition:.5s;
-  	-ms-transition:.5s;
-  	-moz-transition:.5s;
-  	-webkit-transition:.5s;
-  	transition: .5s;
 }
 
 .fa-rss-square:hover {
