@@ -25,6 +25,9 @@
     --text-font: "Montserrat", sans-serif;
 
     --ani-transition-dt: 0.2s;
+
+    --hover-bright: 1.5;
+    --hover-shadow: 0px 0px 5px rgba(0,0,0,0.9);
 }
 
 * {
@@ -110,7 +113,8 @@ a, a:visited {
 }
 
 a:hover {
-  color: var(--general-link-color);
+  -webkit-filter: brightness(var(--hover-bright));
+  filter: brightness(var(--hover-bright));
 }
 
 a.inverted {
@@ -124,8 +128,8 @@ a.inverted {
 }
 
 a.inverted:hover {
-   background-color: var(--general-link-hover);
-   color: var(--general-link-hoveri);
+  -webkit-filter: brightness(var(--hover-bright));
+  filter: brightness(var(--hover-bright));
 }
 
 ul.craft_list_version {
@@ -147,14 +151,13 @@ ul.craft_list_members {
   background-repeat: none;
 }
 
-img#patreon {
+div#patreon {
+  margin-top: 4px;
   float: right;
-  position: relative;
-  margin-top: 0px;
-  height: 64px;
-  width: auto;
   opacity: 0.95;
   padding-right: 2vw;
+  height: auto;
+  width: 160px;
 }
 
 @media (max-width: 35em) {
@@ -163,8 +166,8 @@ img#patreon {
     width: auto;
     background-size: auto 48px;
 }
-  img#patreon {
-    height: 48px;
+  div#patreon {
+    width: 128px;
     margin-top:2px;
   }
 }
@@ -175,9 +178,9 @@ img#patreon {
     width: auto;
     background-size: auto 36px
 }
-  img#patreon {
-    height: 32px;
-    margin-top:2px;
+  div#patreon {
+    width: 96px;
+    margin-top:0px;
   }
 }
 
@@ -306,10 +309,6 @@ blockquote p {
   margin-bottom: 25px;
 }
 
-.thumbnail-container img{
-  
-}
-
 /*
   Post
 */
@@ -428,11 +427,6 @@ blockquote p {
   padding-bottom: 3px;
 }
 
-.menu-content a:hover {
-  background-color: var(--menu-linkbg-hover);
-  color: var(--menu-link-hover);
-}
-
 .menu-content a:active, a#highlighted {
   color: var(--menu-highlighted);
   background-color: var(--menu-link-color);
@@ -441,11 +435,6 @@ blockquote p {
   padding-left: 5px;
   padding-top: 5px;
   padding-bottom: 4px;
-}
-
-.menu-content a#highlighted:hover {
-  background-color: var(--menu-link-color);
-  color: var(--menu-linkbg-color);
 }
 
 .social-icons {
@@ -541,7 +530,7 @@ pre {
 }
 
 .fa-envelope:hover {
-	color: #f39c12;
+	color: #c28017;
 }
 
 .fa-twitter {
@@ -549,7 +538,7 @@ pre {
 }
 
 .fa-twitter:hover {
-	color: #00aced;
+	color: #0075a0;
 }
 
 .fa-youtube {
@@ -557,7 +546,7 @@ pre {
 }
 
 .fa-youtube:hover {
-	color: #c04646;
+	color: #913535;
 }
 
 
