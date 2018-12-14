@@ -7,53 +7,68 @@
 		<atom:link href="/rss-feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>This is just another test post.</title>
+				<title>A &quot; Brief &quot; Introduction</title>
 				
 				
-					<description>&lt;p&gt;This ist just another test to see if the backend is ready for 2019 and my new video formats! Stay tuned!&lt;/p&gt;
+					<description>&lt;p&gt;Rocket Launch Briefings will initially give you a quick or &lt;em&gt;brief&lt;/em&gt; overview about a month’s rocket launches. I have not yet decided whether I will cover them monthly or weekly but monthly is definitely a more eye catchy format I think. “Rocket Launch Briefing - November 2018” sounds more like something people would watch in retrospect. Meaning, it’s not that much effort to watch 12 episodes in order to get an overview about a full year, rather than 52 episodes! I will of course pick out topics I find most interesting and make separate videos about them in the other new video format I currently call my “Video Logbook” aka. a Vlog. I will talk rather casually about something while playing back an animation that I got inspired to. Nothing too fancy and also rather compact!&lt;/p&gt;
 
 </description>
 				
-				<pubDate>Thu, 13 Dec 2018 00:00:00 +0100</pubDate>
-				<link>http://blog.knews.space/vlogs/test-number-two.html</link>
-				<guid isPermaLink="true">http://blog.knews.space/vlogs/test-number-two.html</guid>
-			</item>
-		
-			<item>
-				<title>This is just a test post. Nothing to see here!</title>
-				
-				
-					<description>&lt;p&gt;This ist just a test to see if the backend is ready for 2019 and my new video formats! Stay tuned!&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Thu, 13 Dec 2018 00:00:00 +0100</pubDate>
-				<link>http://blog.knews.space/vlogs/test-number-one.html</link>
-				<guid isPermaLink="true">http://blog.knews.space/vlogs/test-number-one.html</guid>
-			</item>
-		
-			<item>
-				<title>What is SpaceX Starlink again?</title>
-				
-				
-					<description>&lt;p&gt;This is just another test post to see if everything is still doing what it should. I reworked my page a little to maintain it a little easier!&lt;/p&gt;
-</description>
-				
-				<pubDate>Tue, 02 Jan 2018 00:00:00 +0100</pubDate>
-				<link>http://blog.knews.space/briefings/SpaceX-Starlink2.html</link>
-				<guid isPermaLink="true">http://blog.knews.space/briefings/SpaceX-Starlink2.html</guid>
+				<pubDate>Fri, 14 Dec 2018 00:00:00 +0100</pubDate>
+				<link>http://blog.knews.space/briefings/a-brief-introduction.html</link>
+				<guid isPermaLink="true">http://blog.knews.space/briefings/a-brief-introduction.html</guid>
 			</item>
 		
 			<item>
 				<title>What is SpaceX Starlink?</title>
 				
 				
-					<description>&lt;p&gt;This is just a test post to see if everything is doing what it should. I reworked my page a little to maintain it a little easier!&lt;/p&gt;
+					<description>&lt;p&gt;The dotted white outer rim to the sides shows regular communication satellites in a geosynchronous orbit. There are roughly 500 or these currently in orbit and most of you will know them from satellite television. Yep, that’s where you point your dishes at. The ISS orbits much more closely at 400 km, in fact it’s so close you wouldn’t even notice its in space at all from up here. The red dot zips across the sky at 8 km/s in order to not fall back to ground. It counters gravity with its own inertia like a giant centrifuge.&lt;/p&gt;
+
 </description>
 				
-				<pubDate>Mon, 01 Jan 2018 00:00:00 +0100</pubDate>
-				<link>http://blog.knews.space/briefings/SpaceX-Starlink.html</link>
-				<guid isPermaLink="true">http://blog.knews.space/briefings/SpaceX-Starlink.html</guid>
+				<pubDate>Wed, 21 Nov 2018 00:00:00 +0100</pubDate>
+				<link>http://blog.knews.space/vlogs/spacex-starlink-explained.html</link>
+				<guid isPermaLink="true">http://blog.knews.space/vlogs/spacex-starlink-explained.html</guid>
+			</item>
+		
+			<item>
+				<title>How Dangerous are Black Holes?</title>
+				
+				
+					<description>&lt;p&gt;Black Holes are among the most mysterious objects in the sky but, how dangerous are they? I want to explore this question in this logbook entry and give you are quick summary of how I understand the topic. Please be aware that I’m not an astrophysicist and can only share my view which may have som flaws! My main inspiration is the thought of such a hole flying by our sun! I never really thought about how dangerous this seemingly innocent event could be?&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sun, 05 Aug 2018 00:00:00 +0200</pubDate>
+				<link>http://blog.knews.space/vlogs/how-dangerous-black-holes.html</link>
+				<guid isPermaLink="true">http://blog.knews.space/vlogs/how-dangerous-black-holes.html</guid>
+			</item>
+		
+			<item>
+				<title>SpaceX Second Stage Reuse!</title>
+				
+				
+					<description>&lt;p&gt;This logbook entry is about Falcon’s not yet but hopefully soon reusable upper stage. As every space enthusiast is aware of, SpaceX is recovering and reusing their first stage boosters. The first stage turns around and guides itself like a missile after separation, using grid fins to hit its target drone ship out in the ocean. Then, just before impact, up to three engines ignite to land on the floating platform which is stabilized and held in place by the ship’s extremely powerful and foldable propellers. This still one of a kind maneuver is what makes SpaceX so different from other rocket companies which all throw away their boosters crashing them into the ocean.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Wed, 20 Jun 2018 00:00:00 +0200</pubDate>
+				<link>http://blog.knews.space/vlogs/spacex-falcon-second-stage-reuse.html</link>
+				<guid isPermaLink="true">http://blog.knews.space/vlogs/spacex-falcon-second-stage-reuse.html</guid>
+			</item>
+		
+			<item>
+				<title>SpaceX BFR Issues Explained!</title>
+				
+				
+					<description>&lt;p&gt;Elon Musk recently unveiled SpaceX new BFR design to bring humans to Mars and how to fund  it. In this logbook entry I want to share my thoughts on 3 commonly pointed out issues which raise a lot of questions. You are of course free to share your view and I’m looking forward to some debates!&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Wed, 04 Oct 2017 00:00:00 +0200</pubDate>
+				<link>http://blog.knews.space/vlogs/spacex-bfr-issues-explained.html</link>
+				<guid isPermaLink="true">http://blog.knews.space/vlogs/spacex-bfr-issues-explained.html</guid>
 			</item>
 		
 	</channel>
