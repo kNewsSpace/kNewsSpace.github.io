@@ -1,6 +1,5 @@
-/*
-  Base
-*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Montserrat:300');
+
 :root {
     --general-bg-color: rgb(50,50,50);
     --video-bg-color: rgb(50,50,50);
@@ -9,7 +8,7 @@
 
     --general-font-color: rgb(230,230,230);
     --general-link-color: rgb(187, 81, 81);
-    --general-link-hover:  rgb(187, 121, 121);
+    --general-link-hover:  rgb(207, 154, 154);
     --general-link-colori: var(--general-font-color);
     --general-link-hoveri: var(--general-font-color);
 
@@ -21,25 +20,65 @@
     --menu-highlighted: rgb(50,50,50);
 
     --footer-font-color: rgb(148, 148, 148);
+
+    --title-font: "Open Sans", sans-serif;
+    --text-font: "Montserrat", sans-serif;
 }
 
 body {
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: var(--text-font);
   font-size: 18px;
   color: var(--general-font-color);
   background-color: var(--general-bg-color);
   line-height: 1.75rem;
 }
 
-@media (max-width: 30em) {
+body h1 {
+  font-family: var(--title-font);
+}
+body h2 {
+  font-family: var(--title-font);
+}
+body h3 {
+  font-family: var(--title-font);
+}
+body h4 {
+  font-family: var(--title-font);
+}
+
+@media (max-width: 35em) {
+  body h1 {
+    font-size: 1.5rem;
+  }
+  body h2 {
+    font-size: 1.4rem;
+  }
+  body h3 {
+    font-size: 1.3rem;
+  }
+  body h4 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 26em) {
   body {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.5rem;
   }
   body h1 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+  }
+  body h2 {
+    font-size: 1.3rem;
+  }
+  body h3 {
+    font-size: 1.2rem;
+  }
+  body h4 {
+    font-size: 1.1rem;
   }
 }
 
@@ -96,7 +135,7 @@ h1 a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: var(--text-font);
   color: var(--general-title-color);
 }
 
@@ -133,28 +172,59 @@ ul.craft_list_members {
   list-style-type: circle;
 }
 
-img#logo {
-    background-color: #000;
-    height: 64px;
-    width: 1024px;
-    max-width: 100%;
-    margin: auto;
-    object-fit: cover;
-    opacity: 0.95;
+.toplogo {
+  height: 64px;
+  width: auto;
+  max-width: 680px;
+  margin: auto;
+  object-fit: fill;
+  opacity: 0.95;
+  background-image: url('/assets/img/logo.jpg');
 }
 
-@media (max-width: 30em) {
-  img#logo {
+img#patreon {
+  float: right;
+  position: relative;
+  margin-top: 0px;
+  height: 64px;
+  width: auto;
+  opacity: 0.95;
+  object-fit: cover;
+  padding-right: 2vw;
+}
+/*
+img#logo {
+  z-index: 20;
+  height: 64px;
+  width: auto;
+  max-width: 100%;
+  margin: auto;
+  object-fit: cover;
+  opacity: 0.0;
+}*/
+
+@media (max-width: 35em) {
+  .toplogo {
     height: 48px;
     width: auto;
+    background-size: auto 48px;
 }
+  img#patreon {
+    height: 48px;
+    margin-top:2px;
+  }
 }
 
-@media (max-width: 22em) {
-  img#logo {
-    height: 40px;
+@media (max-width: 26em) {
+  .toplogo {
+    height: 36px;
     width: auto;
+    background-size: auto 36px
 }
+  img#patreon {
+    height: 32px;
+    margin-top:2px;
+  }
 }
 
 img {
@@ -216,9 +286,15 @@ blockquote p {
   padding-top: 96px;
 }
 
-@media (max-width: 1366) {
+@media (max-width: 35em) {
   .container {
-    
+    padding-top: 76px;
+  }
+}
+
+@media (max-width: 26em) {
+  .container {
+    padding-top: 64px;
   }
 }
 
@@ -240,7 +316,7 @@ blockquote p {
 */
 
 .masthead {
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 .tophead {
   position: fixed;
@@ -253,6 +329,16 @@ blockquote p {
   box-shadow: #000 0px 0px 10px;
   margin-top: 0px;
   opacity: 0.95;
+}
+@media (max-width: 35em) {
+  .tophead {
+    height: 48px;
+  }
+}
+@media (max-width: 26em) {
+  .tophead {
+    height: 36px;
+  }
 }
 
 /*
@@ -292,11 +378,11 @@ blockquote p {
   margin-top:3px;
   margin-bottom: 1rem;
   color: #9a9a9a;
-  font-family: 'Quattrocento Sans', sans-serif;
+  font-family: var(--text-font);
   font-size:0.8rem;
 }
 
-@media (max-width: 30rem) {
+@media (max-width: 26rem) {
   .posts h1 {
     font-size: 1.5rem;
   }
@@ -321,7 +407,7 @@ blockquote p {
 
 .pagination {
   overflow: hidden;
-  font-family: 'Quattrocento Sans', sans-serif;
+  font-family: var(--text-font);
   text-align: center;
 }
 
@@ -386,7 +472,7 @@ blockquote p {
   padding-right: 5px;
   padding-left: 5px;
   padding-top: 4px;
-  padding-bottom: 2px;
+  padding-bottom: 3px;
 }
 
 .menu-content a:hover {
@@ -397,11 +483,11 @@ blockquote p {
 .menu-content a#highlighted {
   color: var(--menu-highlighted);
   background-color: var(--menu-link-color);
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   padding-right: 5px;
   padding-left: 5px;
-  padding-top: 4px;
-  padding-bottom: 2px;
+  padding-top: 5px;
+  padding-bottom: 4px;
 }
 
 .menu-content a#highlighted:hover {
@@ -418,9 +504,12 @@ blockquote p {
   font-size: 1.3rem;
 }
 
-@media (max-width: 25em) {
+@media (max-width: 26em) {
   .menu-content a {
     font-size: 1.0rem;
+  }
+  .menu-content a#highlighted {
+    font-size: 1.2rem;
   }
   .social-icons a {
     font-size: 1.0rem;
