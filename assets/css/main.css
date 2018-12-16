@@ -200,8 +200,22 @@ ul.craft_list_members {
   margin: auto;
   object-fit: fill;
   opacity: 0.95;
-  background-image: url('/assets/img/logo.jpg');
+  animation: logo;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-timing-function: linear;
+  background-image: url('/assets/img/logo.png');
   background-repeat: none;
+}
+
+@keyframes logo {
+  1%,99% {
+    background-image: url('/assets/img/logo_ani.gif');
+  }
+  100% {
+    background-image: url('/assets/img/logo.png');
+  }
 }
 
 div#patreon {
