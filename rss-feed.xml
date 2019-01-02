@@ -7,6 +7,19 @@
 		<atom:link href="/rss-feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Rocket Launch Briefing 11/2018</title>
+				
+				
+					<description>&lt;p&gt;First up in November was a Chinese Long March 3B. The rocket has 3 core stages, 4 strap-on boosters and an optional 4th stage which is only used to kick navigation satellites into their medium earth orbits. This was not the case on this particular mission despite the satellite being from type BeiDou, which is meant to enhance the chinese GPS. However, BeiDou uses a mix of medium earth orbits and geosynchronous slots above China. It’s hard to find real images of these so simply picture a wrapped box with foldable solar panels attached. These are not designed to be pretty as nobody can see them up there, but that will actually change in the future as satellites will get bigger and heavier. Satellite makers like SSL from California, are already developing satellites that can assemble themselves on orbit, using a robotic arm. Their particular system is called Dragonfly and I bet we’ll get some nice satellite selfies in the future, as these are of course equipped with cameras. In case you wonder: the more unfoldable parts there are, the more hinges and springs and motors you need to unfold it. At some point it therefore makes sense to simply mount an arm like at the Space Station! Stacking stuff is also a little easier on the mounting points as they don’t have to secure the hardware while going through the forces and vibrations of a rocket launch.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Wed, 02 Jan 2019 00:00:00 +0100</pubDate>
+				<link>http://blog.knews.space/briefings/rocket-launches-november-2018.html</link>
+				<guid isPermaLink="true">http://blog.knews.space/briefings/rocket-launches-november-2018.html</guid>
+			</item>
+		
+			<item>
 				<title>A &quot; Brief &quot; Introduction</title>
 				
 				
